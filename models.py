@@ -9,7 +9,7 @@ import json
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
-openai.api_key = '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'
+openai.api_key = 
 
 def is_korean(text):
     return bool(re.search('[가-힣]', text))
